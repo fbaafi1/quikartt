@@ -4,7 +4,7 @@ import VendorForm from '@/components/admin/VendorForm';
 import type { Vendor } from '@/lib/types';
 import { useUser } from '@/contexts/UserContext';
 import { useRouter } from 'next/navigation';
-import { useEffect, useState, use } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ChevronLeft, AlertTriangle } from 'lucide-react';
