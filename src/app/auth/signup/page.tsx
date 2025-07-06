@@ -1,11 +1,11 @@
-
-import SignupForm from '@/components/auth/SignupForm';
+import { Suspense } from "react";
+import SignupForm from "@/components/auth/SignupForm";
 
 export default function SignupPage() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-[calc(100vh-12rem)] py-4">
+    <Suspense fallback={<div>Loading...</div>}>
       <SignupForm />
-    </div>
+    </Suspense>
   );
 }
 
