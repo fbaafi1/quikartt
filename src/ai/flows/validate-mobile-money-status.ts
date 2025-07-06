@@ -1,0 +1,2 @@
+// This file is intentionally left blank as Genkit has been removed from the project.
+// The associated functionality in the PaymentSimulator has been simplified.
